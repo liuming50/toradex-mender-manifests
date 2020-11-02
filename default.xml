@@ -14,7 +14,6 @@
 
   <default sync-j="4"/>
   
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="1.40"/>
   <project name="meta-browser.git" path="layers/meta-browser" remote="githo" revision="2c3c891f776e86faad1f759676cb2bfff32df4a8" upstream="master"/>
   <project name="meta-freescale-3rdparty.git" path="layers/meta-freescale-3rdparty" remote="githf" revision="thud"/>
   <project name="meta-freescale-distro.git" path="layers/meta-freescale-distro" remote="githf" revision="thud"/>
@@ -29,8 +28,7 @@
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="thud-next"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="thud-next"/>
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="thud"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="thud"/>
+  <project name="poky.git" path="layers/poky" remote="yocto" revision="thud"/>
   <project name="meta-mender.git" path="layers/meta-mender" remote="mender" revision="thud"/>
   <project name="meta-mender-community.git" path="layers/meta-mender-community" remote="mender" revision="thud"/>
   <project name="bitbake-bash-completion.git" path="layers/bitbake-bash-completion" remote="sergio" revision="master"/>
