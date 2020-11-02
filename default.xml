@@ -10,7 +10,8 @@
   <remote alias="repo" fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote alias="repo" fetch="https://github.com/mendersoftware" name="mender"/>
   <remote alias="repo" fetch="https://github.com/liuming50" name="ming"/>
-  
+  <remote alias="repo" fetch="https://github.com/sergioprado" name="sergio"/>
+
   <default sync-j="4"/>
   
   <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="1.40"/>
@@ -32,8 +33,8 @@
   <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="thud"/>
   <project name="meta-mender.git" path="layers/meta-mender" remote="mender" revision="thud"/>
   <project name="meta-mender-community.git" path="layers/meta-mender-community" remote="mender" revision="thud"/>
-  <project name="bitbake-bash-completion.git" path="layers/bitbake-bash-completion" remote="ming" revision="master"/>
-  <project name="meta-toradex-mender.git" path="layers/meta-toradex-mender" remote="ming" revision="master">
+  <project name="bitbake-bash-completion.git" path="layers/bitbake-bash-completion" remote="sergio" revision="master"/>
+  <project name="meta-toradex-mender.git" path="layers/meta-toradex-mender" remote="ming" revision="main">
     <linkfile dest="poky-init-build-env" src="scripts/poky-init-build-env"/>
     <linkfile dest="README.md" src="README.md"/>
   </project>
